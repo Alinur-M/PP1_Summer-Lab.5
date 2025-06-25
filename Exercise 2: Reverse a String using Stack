@@ -8,7 +8,7 @@ int main() {
     stack<char> charStack;
 
     cout << "Enter a string: ";
-    getline(std::cin, input);
+    getline(cin, input);
 
     for (char c : input) {
         charStack.push(c);
